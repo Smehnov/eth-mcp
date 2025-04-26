@@ -7,6 +7,20 @@ Video – https://youtu.be/PaqH-7GVhAI
 `fastmcp install eth.py` to add to Claude Desktop  
 `uv run --with fastmcp --with web3 fastmcp run <PATH-TO-ETH-MCP>/eth.py` for local launch
 
+## Requirements
+- web3.py
+- eth-account
+- fastmcp
+- python-dotenv
+
+## Configuration
+
+Create a `.env` file with your Ethereum RPC URL:
+```
+ETH_RPC_URL=https://mainnet.infura.io/v3/your-project-id
+```
+
+
 ## Features
 
 ### Contact Management
@@ -40,15 +54,3 @@ Video – https://youtu.be/PaqH-7GVhAI
 | wETH  | 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2 |
 | stETH | 0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84 |
 
-## Requirements
-- web3.py
-- eth-account
-- fastmcp
-- python-dotenv
-
-## Configuration
-
-Create a `.env` file with your Ethereum RPC URL:
-```
-ETH_RPC_URL=https://mainnet.infura.io/v3/your-project-id
-```
