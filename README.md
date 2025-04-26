@@ -1,6 +1,7 @@
 # Ethereum MCP Tools
 
-A collection of Ethereum tools for managing wallets, contacts, and performing transactions through MCP.
+A collection of Ethereum tools for managing wallets, contacts, and performing transactions through MCP.  
+Video – https://youtu.be/PaqH-7GVhAI  
 
 ## How to run
 `fastmcp install eth.py` to add to Claude Desktop  
