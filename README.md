@@ -3,8 +3,8 @@
 A collection of Ethereum tools for managing wallets, contacts, and performing transactions through MCP.
 
 ## How to run
-`fastmcp install eth.py` to add to Claude Desktop 
-`uv run --with fastmcp --with web3 fastmcp run <PATH-TO-ETH-MCP>/eth.py`
+`fastmcp install eth.py` to add to Claude Desktop  
+`uv run --with fastmcp --with web3 fastmcp run <PATH-TO-ETH-MCP>/eth.py` for local launch
 
 ## Features
 
